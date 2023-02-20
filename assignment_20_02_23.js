@@ -52,3 +52,110 @@ function powerCalculator(voltage, current) {
     let power = voltage * current
     return power
 }
+
+
+// 5. Return Something to Me!
+// Write a function that returns the string "something" joined with a space " " and the given argument a.
+// sample below
+// giveMeSomething("is better than nothing") ➞ "something is better than nothing"
+// giveMeSomething("Bob Jane") ➞ "something Bob Jane"
+// giveMeSomething("something") ➞ "something something"
+
+function giveMeSomething(something) {
+    let result =  "something " + something
+    return result
+}
+
+
+// 6. Concatenate First and Last Name into One String
+// Write a function that takes 2 parameters firstName and lastName, return a single string in the format "last, first."
+// sample below
+// concatName("Johnny", "Bravo") ➞ "Last, First"
+// concatName("John", "Doe") ➞ "Doe, John"
+// concatName("Mary", "Jane") ➞ "Jane, Mary"
+
+function concatName(firstName, lastName) {
+    let response = " \" " + lastName + ", " + firstName + " \" "
+    
+    return response
+}
+
+// 7. Return the Remainder from Two Numbers
+// Write a function that takes two numbers as arguments and returns the remainder of the first number divided by the second number.
+// sample below
+// remainder(1, 3) ➞ 1
+// remainder(3, 4) ➞ 3
+// remainder(-9, 45) ➞ -9
+
+function remainder(num1, num2) {
+
+    let res = num1 % num2
+    return res
+}
+
+
+// 8. Return Negative
+// Write a function that takes a number as an argument and returns negative of that number. Return negative numbers without any change.
+// sample below
+// returnNegative(4) ➞ -4
+// returnNegative(15) ➞ -15
+// returnNegative(-4) ➞ -4
+// returnNegative(0) ➞ 0
+
+function returnNegative(number) {
+    //todo : later
+}
+
+// 9. String and Number Conversions
+// Write a function that takes a string and returns it as an integer.
+// sample below
+// intToString(4) ➞ "4"
+// stringToInt("4") ➞ 4
+
+function intToString(number){
+    
+    let result = String(number)
+    return result
+}
+
+
+
+function stringToInt(valueInString){
+    
+    let result = Number(valueInString)   
+    return result
+}
+
+// 10. Four Passengers and a Driver 
+//(Here a bit problem solving, you have to think of the solution before you code)
+// A typical car can hold four passengers and one driver, allowing five 
+//people to travel around.Given n number of people, return how many cars are needed 
+//to seat everyone comfortably.
+// sample below
+
+// carsNeeded(5) ➞ 1
+// carsNeeded(11) ➞ 3
+// carsNeeded(0) ➞ 0
+
+
+
+function carsNeeded(numberOfPassenger) {
+    let result = Math.ceil(numberOfPassenger / 5)
+    return result
+}
+
+
+
+// 11. Return the Total Number of Parameters (Here's another bit of problem solving)
+// Write a function that returns the total number of parameters passed in.
+// sample below
+// numberArgs("a", "b", "c") ➞ 3
+// numberArgs(10, 20, 30, 40, 50) ➞ 5
+// numberArgs(x, y) ➞ 2
+// numberArgs() ➞ 0
+
+
+function numberArgs() {
+    let result = arguments.length
+    return result
+}
