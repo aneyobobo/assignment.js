@@ -38,4 +38,17 @@ function calcAge(ageInYear) {
     let ageInDays =  ageInYear * noOfDaysInAYear
     
     return ageInDays
+
+}
+
+// 4. Power Calculator
+// Write a function that takes voltage and current and returns the calculated power. NB: power = voltage * current
+// samples below
+// circuitPower(230, 10) ➞ 2300
+// circuitPower(110, 3) ➞ 330
+// circuitPower(480, 20) ➞ 9600
+
+function powerCalculator(voltage, current) {
+    let power = voltage * current
+    return power
 }
