@@ -8,6 +8,18 @@
 
 function sumOfTwoNumbers(firstNumber, secondNumber) {
     let sum = firstNumber + secondNumber
-
     return sum
+
+}
+
+//2. Return the Next Number from the Integer Passed
+// Write a function that takes a number as an argument, increases the number by 1 and returns the result.
+// samples below
+// nextNumber(0) ➞ 1
+// nextNumber(9) ➞ 10
+// nextNumber(-3) ➞ -2 
+
+function nextNumber(number) {
+    let result = number + 1
+    return result
 }
