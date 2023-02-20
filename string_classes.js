@@ -12,3 +12,14 @@ function callMynameToSmall(name) {
 
     return newName
 }
+
+console.log(callMynameToSmall("olATunJi yusuF AjOa") )
+
+
+function removeSpaces(name) {
+    let newName = name.trim()
+
+    return newName
+}
+
+console.log(removeSpaces("     olATunJi    yusuF    AjOa      ") )
