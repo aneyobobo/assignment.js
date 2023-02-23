@@ -23,3 +23,7 @@ function removeSpaces(name) {
 }
 
 console.log(removeSpaces("     olATunJi    yusuF    AjOa      ") )
+
+
+//questions
+//write a fu
