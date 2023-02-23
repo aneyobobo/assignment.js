@@ -25,7 +25,7 @@ function nextNumber(number) {
 }
 
 
-// 3. Convert Age to Days
+// // 3. Convert Age to Days
 // Write a function that takes the age in years and returns the age in days.
 // samples below
 // calcAge(65) ➞ 23725
@@ -159,3 +159,5 @@ function numberArgs() {
     let result = arguments.length
     return result
 }
+
+
