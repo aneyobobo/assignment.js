@@ -1,5 +1,4 @@
 
-
 let accountNumber = "101213456"
 let accountName = "Adenike Adeyemi Olayinka"
 let balance = 0.00
@@ -25,7 +24,7 @@ function withdraw(amountToWithdraw) {
     if(balance > amountToWithdraw){
     let newBalance = balance - amountToWithdraw
 
-    balance = newBalance
+    balance = newBalance   
 
     return balance
     }else{
