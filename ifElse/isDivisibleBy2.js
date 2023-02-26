@@ -16,3 +16,6 @@ console.log(isDivisibleBy2(5))
 console.log(isDivisibleBy2(52))
 console.log(isDivisibleBy2(100005))
 console.log(isDivisibleBy2(2))
+
+
+
